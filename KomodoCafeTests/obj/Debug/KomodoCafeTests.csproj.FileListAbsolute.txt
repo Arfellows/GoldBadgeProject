@@ -1,0 +1,16 @@
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\obj\Debug\KomodoCafeTests.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\obj\Debug\KomodoCafeTests.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\KomodoCafeTests.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\KomodoCafeTests.pdb
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\KomodoCafe_Repository.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\KomodoCafe_Repository.pdb
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\obj\Debug\KomodoCafeTests.csproj.CopyComplete
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\obj\Debug\KomodoCafeTests.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\KomodoCafeTests\obj\Debug\KomodoCafeTests.pdb

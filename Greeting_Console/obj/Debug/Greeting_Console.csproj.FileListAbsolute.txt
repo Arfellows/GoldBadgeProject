@@ -1,0 +1,10 @@
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Console\bin\Debug\Greeting_Console.exe.config
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Console\bin\Debug\Greeting_Console.exe
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Console\bin\Debug\Greeting_Console.pdb
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Console\bin\Debug\Greeting_Repository.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Console\bin\Debug\Greeting_Repository.pdb
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Console\obj\Debug\Greeting_Console.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Console\obj\Debug\Greeting_Console.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Console\obj\Debug\Greeting_Console.csproj.CopyComplete
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Console\obj\Debug\Greeting_Console.exe
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Console\obj\Debug\Greeting_Console.pdb

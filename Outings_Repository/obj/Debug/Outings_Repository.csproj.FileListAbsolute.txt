@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Outings_Repository\bin\Debug\Outings_Repository.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Outings_Repository\bin\Debug\Outings_Repository.pdb
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Outings_Repository\obj\Debug\Outings_Repository.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Outings_Repository\obj\Debug\Outings_Repository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Outings_Repository\obj\Debug\Outings_Repository.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Outings_Repository\obj\Debug\Outings_Repository.pdb

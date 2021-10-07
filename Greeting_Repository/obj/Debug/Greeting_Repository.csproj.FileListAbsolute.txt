@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Repository\bin\Debug\Greeting_Repository.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Repository\bin\Debug\Greeting_Repository.pdb
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Repository\obj\Debug\Greeting_Repository.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Repository\obj\Debug\Greeting_Repository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Repository\obj\Debug\Greeting_Repository.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenge\Greeting_Repository\obj\Debug\Greeting_Repository.pdb

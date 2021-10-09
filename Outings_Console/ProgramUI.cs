@@ -47,7 +47,7 @@ namespace Outings_Console
                         ViewIndividualEvent();
                         break;
                     case "4":
-                        ViewCostBreakdown();
+                        GetSumOfTotalCost();
                         break;
                     case "5":
                         isRunning = false;
@@ -141,7 +141,7 @@ namespace Outings_Console
         private void ViewCostBreakdown()
         {
             Console.Clear();
-            //Outings outing = new Outings();
+            Outings outing = new Outings();
             //double total = new double();
 
             Console.WriteLine("\nThis page is to show the breakdown of costs.\n\n" +
@@ -171,9 +171,8 @@ namespace Outings_Console
         {
             Console.Clear();
 
-            double total = new double();
+            
 
-            total = _outingsRepo.SumOfTotalCost();
            
         }
     }

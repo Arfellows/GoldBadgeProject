@@ -106,7 +106,7 @@ namespace Greeting_Console
             List<Customer> listOfCustomers = _customerRepo.ViewCustomers();
             foreach (Customer customer in listOfCustomers)
             {
-                Console.WriteLine($"{customer.FirstName} \t\t {customer.LastName} \t\t { customer.TypeOfCustomer}    ");
+                Console.WriteLine($"{customer.FirstName} \t\t {customer.LastName} \t\t { customer.TypeOfCustomer}");
             }
         }
         private void FindCustomerById()
@@ -213,6 +213,13 @@ namespace Greeting_Console
             _customerRepo.AddCustomer(customerThree);
             _customerRepo.AddCustomer(customerFour);
 
+        }
+
+        //send email method
+        private void SendEmailToCustomer()
+        {
+            Customer customer = new Customer();
+            
         }
     }
 }

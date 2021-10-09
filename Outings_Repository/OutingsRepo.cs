@@ -34,11 +34,5 @@ namespace Outings_Repository
             }
             return null;
         }
-
-        public double SumOfTotalCost()
-        {
-            double total = _outings.Sum(item => item.TotalCost);
-            return total;
-        }
     }
 }

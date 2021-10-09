@@ -102,11 +102,13 @@ namespace Greeting_Console
         private void ViewListOfCustomers()
         {
             Console.Clear();
-            Console.WriteLine("First Name" + "\t" + "Last Name" + "\t" + "Type" + "\t\t" + "Email");
+            Console.WriteLine("First Name" + "\t" + "Last Name" + "\t" + "Type" + "\t\t" + "Email\n\n");
             List<Customer> listOfCustomers = _customerRepo.ViewCustomers();
+            //var sortedList = listOfCustomers.OrderBy(x => x).ToList();
+            //listOfCustomers.Sort();
             foreach (Customer customer in listOfCustomers)
             {
-                Console.WriteLine($"{customer.FirstName} \t\t {customer.LastName} \t\t { customer.TypeOfCustomer}");
+                Console.WriteLine($"{customer.FirstName} \t {customer.LastName} \t { customer.TypeOfCustomer}");
             }
         }
         private void FindCustomerById()
@@ -219,7 +221,7 @@ namespace Greeting_Console
         private void SendEmailToCustomer()
         {
             Customer customer = new Customer();
-            
+            switch(customer)
         }
     }
 }

@@ -33,6 +33,8 @@ namespace Outings_Repository
             TotalCostPerPerson = totalCostPerPerson;
             TypeOfEvent = typeOfEvent;
         }
+
+        
     }
 
     

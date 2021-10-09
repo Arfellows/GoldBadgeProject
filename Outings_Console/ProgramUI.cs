@@ -10,6 +10,7 @@ namespace Outings_Console
     class ProgramUI
     {
         private OutingsRepo _outingsRepo = new OutingsRepo();
+        List<Outings> listOfOutings = new List<Outings>();
         public void Run()
         {
             SeedOutingList();
@@ -28,7 +29,7 @@ namespace Outings_Console
                     "1. View list of outings\n" +
                     "2. Add outing to list\n" +
                     "3. Individual outing information\n" +
-                    "4. Breakdown of costs\n" +
+                    "4. Total Cost for All Events\n" +
                     "5. EXIT");
 
                 //prompt for input
@@ -110,6 +111,7 @@ namespace Outings_Console
             int outingAsInt = int.Parse(outingAsString);
             newOuting.TypeOfEvent = (EventType)outingAsInt;
             _outingsRepo.AddOuting(newOuting);
+            listOfOutings.Add(newOuting);
         }
         private void ViewIndividualEvent()
         {
@@ -138,20 +140,22 @@ namespace Outings_Console
                 Console.WriteLine("No outing found by that name.");
             }
         }
-        private void ViewCostBreakdown()
-        {
-            Console.Clear();
-            Outings outing = new Outings();
-            //double total = new double();
+        //private void ViewCostBreakdown()
+        //{
+        //    Console.Clear();
+        //    Outings outing = new Outings();
+        //    //double total = new double();
 
-            Console.WriteLine("\nThis page is to show the breakdown of costs.\n\n" +
-                "Total Cost by Event Type\n" +
-                $"Golf: \n" +
-                $"Bowling: \n" +
-                $"Amusement Parks: \n" +
-                $"Concerts: \n\n" +
-                $"Total Cost Combined: " );           
-        }
+        //    Console.WriteLine("\nThis page is to show the breakdown of costs.\n\n" +
+        //        "Total Cost by Event Type\n" +
+        //        $"Golf: \n" +
+        //        $"Bowling: \n" +
+        //        $"Amusement Parks: \n" +
+        //        $"Concerts: \n\n" +
+        //        $"Total Cost Combined: " );
+
+            
+        //}
 
         //SEED METHOD
         private void SeedOutingList()
@@ -165,15 +169,21 @@ namespace Outings_Console
             _outingsRepo.AddOuting(outingTwo);
             _outingsRepo.AddOuting(outingThree);
             _outingsRepo.AddOuting(outingFour);
+            listOfOutings.Add(outingOne);
+            listOfOutings.Add(outingTwo);
+            listOfOutings.Add(outingThree);
+            listOfOutings.Add(outingFour);
         }
 
         private void GetSumOfTotalCost()
         {
             Console.Clear();
 
-            
+            var total = listOfOutings.Sum(item => item.TotalCost);
+            Console.WriteLine($"Total Cost: {total}");
 
-           
         }
+
+
     }
 }
